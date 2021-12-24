@@ -34,12 +34,34 @@
 // console.log(squareNumbers);
 
 
-let numbers = [1,4,7,9,24,78,99];
-let multiNumbers = numbers.map((curElm) => {
-    return curElm * 2;
-}).filter((curElm) => {
-    return curElm > 10;
+// let numbers = [1,4,7,9,24,78,99];
+// let multiNumbers = numbers.map((curElm) => {
+//     return curElm * 2;
+// }).filter((curElm) => {
+//     return curElm > 10;
 
-})
+// })
 
-console.log(multiNumbers)
+// console.log(multiNumbers)
+
+// let numbers = [2,4,6,7,8];
+// let reduceNumbers = numbers.reduce((accumulator, curelm )=>{
+//     return accumulator *= curelm;
+// },1000 )
+
+// console.log(reduceNumbers);
+
+// let zone = [
+//     [ 'zone1', 'zone2'],
+//     [ 'zone3', 'zone4'],
+//     [ 'zone5', 'zone6']
+// ];
+
+// let zoneSum = zone.reduce((accum, currValue)=>{
+//     return accum.concat(currValue)
+// })
+
+// console.log(zoneSum);
+
+let myName = 'Mian Muhammad Bilal';
+console.log(myName);
