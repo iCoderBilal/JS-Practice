@@ -63,5 +63,9 @@
 
 // console.log(zoneSum);
 
-let myName = 'Mian Muhammad Bilal';
-console.log(myName);
+// let myName = 'Mian Muhammad Bilal';
+// console.log(myName.length);
+
+let myName = 'My name is "Mian Muhammad Bilal".'
+const indName = myName.lastIndexOf('M', 18);
+console.log(indName);
