@@ -156,8 +156,26 @@
 // let tareekh = new Date('December 27, 2021 12:12:13' );
 // console.log(tareekh.toLocaleString());
 
-let tareekh = new Date(767365746756487587485);
-console.log(tareekh.toLocaleString());
+// let tareekh = new Date(0);
+// console.log(tareekh.toLocaleString());
+
+// let tareekh = new Date();
+// console.log(tareekh.toLocaleDateString());
+// console.log(tareekh.setFullYear(2022));
+// console.log(tareekh.setMonth(11));
+// console.log(tareekh.setDate(12));
+
+
+// let newDate = new Date();
+// console.log(newDate.getTime());
+// console.log(newDate.getHours());
+// console.log(newDate.getMinutes());
+// console.log(newDate.getSeconds());
+// console.log(newDate.getMilliseconds());
+
+
+
+
 
 
     
