@@ -173,6 +173,25 @@
 // console.log(newDate.getSeconds());
 // console.log(newDate.getMilliseconds());
 
+// let number = 10.6;
+
+// console.log(Math.PI);
+
+// let myNumber = console.log(Math.round(number));
+// console.log(Math.pow(myNumber,4));
+
+// console.log(Math.sqrt(36));
+// console.log(Math.abs(-1000));
+
+
+// console.log(Math.ceil(1.01));
+// console.log(Math.floor(2.09999999999999999999999999999999999999));
+// let numbers = [-937536583, -76210751, -8621875368265, 783265876];
+
+console.log(Math.min(-937536583, -76210751, -8621875368265, 783265876));
+
+
+
 
 
 
