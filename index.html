@@ -3,10 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css"
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practice</title>
 </head>
 <body>
-    
+
+    <p>Click the below button to display the Date & Time.</p>
+
+    <button onclick="myDate()">Try It</button>
+  <p id="demo"></p>
+  <p id="time"></p>
+        
+    </div>
+    <script>
+        function myDate() {
+            let t = new Date().toLocaleTimeString();
+
+            let y = new Date().toLocaleDateString();
+            
+
+            
+
+            document.getElementById('demo').innerHTML = t;
+            document.getElementById('time').innerHTML = y;
+            
+        }
+    </script>
 </body>
 </html>

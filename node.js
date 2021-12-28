@@ -188,7 +188,12 @@
 // console.log(Math.floor(2.09999999999999999999999999999999999999));
 // let numbers = [-937536583, -76210751, -8621875368265, 783265876];
 
-console.log(Math.min(-937536583, -76210751, -8621875368265, 783265876));
+// console.log(Math.min(-937536583, -76210751, -8621875368265, 783265876));
+
+// console.log(Math.floor(Math.random()*10));
+
+// console.log(Math.trunc(2.7));
+// console.log(Math.trunc(-2.9));
 
 
 
