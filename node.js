@@ -198,7 +198,10 @@
 
 
 
-
+// alert(location.href);
+// if(confirm("Did you want to visit icoderBilal Portfolio")){
+//     location.href = 'https://icoderbilal.dorik.io/';
+// }
 
 
 

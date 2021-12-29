@@ -9,26 +9,63 @@
 </head>
 <body>
 
-    <p>Click the below button to display the Date & Time.</p>
+    <!-- <p>Click the below button to display the Date & Time.</p>
 
     <button onclick="myDate()">Try It</button>
   <p id="demo"></p>
   <p id="time"></p>
         
-    </div>
+    </div> -->
+    <!-- <h1 id="heading">My Name is Mian Muhammad Bilal (naam to suna hoga)</h1>
+
+    <button onclick="buttonBack()">Click On it </button>
+
+    <p class="apra">Hello!</p>
+    <p class="apra">Hello!</p> -->
+
+    <button id="lastone">click on me</button>
+
     <script>
-        function myDate() {
-            let t = new Date().toLocaleTimeString();
 
-            let y = new Date().toLocaleDateString();
+    // const idontknow = document.getElementById('lastone');
+    // idontknow.onclick = function() {
+
+    
+    // alert('You know me')};
+
+
+        // function myFunction(){
+        //     alert('Keep trying');
+        // }  
+        // function myDate() {
+        //     let t = new Date().toLocaleTimeString();
+
+        //     let y = new Date().toLocaleDateString();
             
 
             
 
-            document.getElementById('demo').innerHTML = t;
-            document.getElementById('time').innerHTML = y;
+        //     document.getElementById('demo').innerHTML = t;
+        //     document.getElementById('time').innerHTML = y;
             
-        }
+        // }
+// function buttonBack(){
+//     window.history.back();
+// }
+
+function buttonBack(){
+    document.querySelectorAll('.apra').innerHTML = 'I changed again';}
+    // let data = document.getElementById('heading');
+    // data.innerHTML = 'Yes we know';
+    // document.getElementById('heading').innerHTML = 'Yes we know it.';
+//     console.log(document.getElementsByClassName('apra'));
+//     console.log(document.getElementsByTagName('p'));
+// }
+
+
+
+
+    
     </script>
 </body>
 </html>
