@@ -23,9 +23,93 @@
     <p class="apra">Hello!</p>
     <p class="apra">Hello!</p> -->
 
-    <button id="lastone">click on me</button>
+    <!-- <button id="lastone">click on me</button> -->
 
-    <script>
+    <!-- <p id="showname"></p>
+    <button id="btn">Click Me if you are interested in me</button> -->
+
+   <!-- <h3>Click the Below Button To check the name of Lucky Person</h3>
+   <p id="showus"></p>
+   <button id="btn">Click me</button> -->
+
+   <p id="main"></p>
+   <button id="btn">Click me </button>
+   <button id="stop"> Stop</button>
+   
+
+ 
+     <script>
+         let num = 0;
+         const stop = document.getElementById('stop');
+         let time;
+
+         const countdown = document.querySelector("#btn");
+
+         let counting = function(){
+
+
+              time = setInterval(() => {
+                 document.getElementById('main').innerHTML = `${num}`;
+                 num++;
+             }, 1000);
+         }
+
+         
+         countdown.addEventListener('click', counting );
+
+         stop.addEventListener('click', () =>{
+             clearInterval(time);
+         })
+
+
+
+        // const Yes = document.getElementById('showus') -->
+
+        // const clickbutton = document.getElementById('btn');
+        // const name = function(){
+        //     Yes.innerHTML = "Loading.........."
+        //     setTimeout(function(){
+        //         Yes.innerHTML = 'Mian Muhammad  Bilal'
+
+
+                
+
+        //     },1000)
+        // };
+
+
+        // clickbutton.addEventListener('click', name);
+
+    //    const myName = document.getElementById('showname');
+    //    const button = document.getElementById('btn');
+
+    //    const showMyName = function(){
+    //        setTimeout(function(){
+    //            myName.innerHTML = 'Mian Muhammad Bilal'
+
+    //        },3000)
+    //    }
+
+    //    button.addEventListener('click' , showMyName);
+
+     
+
+       
+        
+        // function mouseDown(){
+        //     document.getElementById('mousecheck').style.color = 'rgb(0,0,255)';
+            
+        // }
+
+        // function mouseUp(){
+        //     document.getElementById('mousecheck').style.color = 'rgb(255, 255, 0)';
+        // }
+
+        // const lastone = document.getElementById('lastone');
+
+        // lastone.addEventListener('click', () => {
+        //     alert('This is the best one.')
+        // })
 
     // const idontknow = document.getElementById('lastone');
     // idontknow.onclick = function() {
@@ -53,14 +137,14 @@
 //     window.history.back();
 // }
 
-function buttonBack(){
-    document.querySelectorAll('.apra').innerHTML = 'I changed again';}
+// function buttonBack(){
+//     document.querySelectorAll('.apra').innerHTML = 'I changed again';}
     // let data = document.getElementById('heading');
     // data.innerHTML = 'Yes we know';
     // document.getElementById('heading').innerHTML = 'Yes we know it.';
 //     console.log(document.getElementsByClassName('apra'));
 //     console.log(document.getElementsByTagName('p'));
-// }
+// } -->
 
 
 
