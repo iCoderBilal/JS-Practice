@@ -204,6 +204,20 @@
 // }
 
 
+let myData = {
+    myName : {
+        mysurname : 'Mian',
+        myfullname : 'Mian Muhammad Bilal'
+    },
+    myAge : 26,
+    getData (){
+        console.log(`My name is ${myData.myName} and my age is ${myData.myAge}.`)
+    }
+}
+
+console.log(myData.myName.mysurname);
+
+
 
     
     
