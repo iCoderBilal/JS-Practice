@@ -218,10 +218,41 @@
 // console.log(myData.myName.mysurname);
 
 
-const myData = ['mian muhammad Bilal' , 18 , 2004];
-let myName = myData[0];
+// const myData = ['mian muhammad Bilal' , 18 , 2004];
+// let myName = myData[0];
+// let myAge = myData[1];
 
-console.log(myName);
+// console.log(myAge);
+// const myData = ['mian muhammad bilal' , 18 , 2003]
+//  let [myName,myAge,myDate, myFirstName = 'Mian'] = myData;
+
+// console.log(myFirstName);
+
+// let myDate = {
+//     myName : 'Mian Muhammad BIlal',
+//     [2 + 18] : 'this is my age.' ,
+//     mybirth : 2004
+// }
+
+// console.log(myDate);
+
+// let myname = 'Muhammad Bilal';
+// let myage = 26;
+
+// let mybiodata = {
+//     myname,
+//     myage
+// }
+// console.log(mybiodata);
+
+// let mycolors = ['yellow', 'green' , 'white'];
+// let newcolors = [...mycolors, 'peech ' ]
+
+// console.log(newcolors);
+
+
+// const myName = "Mian Muhammad Bilal".padStart(3)
+// console.log(myName);
 
 
 
