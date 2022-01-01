@@ -204,18 +204,24 @@
 // }
 
 
-let myData = {
-    myName : {
-        mysurname : 'Mian',
-        myfullname : 'Mian Muhammad Bilal'
-    },
-    myAge : 26,
-    getData (){
-        console.log(`My name is ${myData.myName} and my age is ${myData.myAge}.`)
-    }
-}
+// let myData = {
+//     myName : {
+//         mysurname : 'Mian',
+//         myfullname : 'Mian Muhammad Bilal'
+//     },
+//     myAge : 26,
+//     getData (){
+//         console.log(`My name is ${myData.myName} and my age is ${myData.myAge}.`)
+//     }
+// }
 
-console.log(myData.myName.mysurname);
+// console.log(myData.myName.mysurname);
+
+
+const myData = ['mian muhammad Bilal' , 18 , 2004];
+let myName = myData[0];
+
+console.log(myName);
 
 
 
