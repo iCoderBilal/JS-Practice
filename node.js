@@ -254,6 +254,40 @@
 // const myName = "Mian Muhammad Bilal".padStart(3)
 // console.log(myName);
 
+// let mydata = {myname: 'Mian Muhammad Bilal', myage : 27}
+// console.log(Object.entries(mydata));
+
+// let myName = {
+//     name : "Mina Muhammad Bilal"
+// };
+
+// let otherpersonname = {
+//     ...myName
+// }
+
+// console.log(myName);
+// console.log(otherpersonname );
+
+
+// let arr = [
+//     ['zone1' , 'one2'],
+//     ['zone3', 'zone4'],
+//     ['zone5', 'zone6'],
+//     ['zone7', ['zone8', 'zone9']]
+   
+
+// ];
+
+// console.log(arr.flat(3));
+
+// let arr = {
+//     myName : 'Mian Muhammad Bilal',
+//     myAge : 26,
+
+// }
+
+//     const newArr = Object.entries(arr);
+//     console.log(Object.fromEntries(newArr));
 
 
     
