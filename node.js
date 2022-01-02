@@ -290,6 +290,90 @@
 //     console.log(Object.fromEntries(newArr));
 
 
+// const maxNumber = 9007199254740991n + 19n;
+// console.log(typeof maxNumber);
+
+
+// const number = NaN ?? 'Mian';
+// console.log(number);
+// "use strict"
+//  myName = 'Mian Muhammad Bilal';
+//  console.log(myName);
+
+
+// const plus = function(a,b){
+//     return a+b;
+// }
+
+// const sub = function(a,b){
+//     return a-b;
+// }
+
+// const cal = function(num1, num2 , operator){
+//     return operator(num1, num2);
+// }
+
+
+// console.log(cal(plus));
+
+
+// const myName = 'Mian Muhammad bilal';
+
+// const mybrother = function(){
+//     let mybrothername = 'Talha Jamal';
+
+
+// const together = function(){
+//     let stick = (together+mybrother);
+    
+// }
+// }
+// console.log(myName+mybrother);
+
+
+//  
+
+
+// function sum(a=12,b=34){
+//     const numbersum = a + b;
+//     return numbersum;
+// }
+
+// function percentage(sum){
+//     let per
+// }
+
+// console.log(sum());
+
+
+// function check(a){
+//     let formula = a%2;
+//     return formula;
+// }
+// check(10);
+
+// if(formula == 0){
+//     console.log('this is even number.')
+// }else{
+//     console.log('this is odd number');
+// }
+
+
+let number = 13;
+
+
+let onemoreformula = number%2;
+
+if(onemoreformula==0){
+    console.log('this is even number');
+
+}else{
+    console.log('this is odd number')
+}
+
+
+
+
     
     
 

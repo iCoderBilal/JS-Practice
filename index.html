@@ -32,37 +32,70 @@
    <p id="showus"></p>
    <button id="btn">Click me</button> -->
 
-   <p id="main"></p>
+   <!-- <p id="main"></p>
    <button id="btn">Click me </button>
-   <button id="stop"> Stop</button>
+   <button id="stop"> Stop</button> -->
+
+   <div class="firstdiv" id="firstid">
+       <div class="seconddiv" id="secondid">
+
+       </div>
+   </div>
    
 
  
      <script>
-         let num = 0;
-         const stop = document.getElementById('stop');
-         let time;
-
-         const countdown = document.querySelector("#btn");
-
-         let counting = function(){
+         let firstdiv = document.getElementById('firstid');
+         let seconddiv = document.getElementById('secondid');
 
 
-              time = setInterval(() => {
-                 document.getElementById('main').innerHTML = `${num}`;
-                 num++;
-             }, 1000);
+         const firstcall = function(){
+             alert('hit the big div');
+         }
+
+         const secondcall = () =>{
+             alert('hit the small div');
+             event.stopPropagation();
+         }
+
+         firstdiv.addEventListener('click' , firstcall , true);
+         seconddiv.addEventListener('click', secondcall , true);
+
+
+
+
+
+
+
+
+
+
+
+
+        //  let num = 0;
+        //  const stop = document.getElementById('stop');
+        //  let time;
+
+        //  const countdown = document.querySelector("#btn");
+
+        //  let counting = function(){
+
+
+        //       time = setInterval(() => {
+        //          document.getElementById('main').innerHTML = `${num}`;
+        //          num++;
+        //      }, 1000);
 
 
              
-         }
+        //  }
 
 
-         countdown.addEventListener('click', counting );
+        //  countdown.addEventListener('click', counting );
 
-         stop.addEventListener('click', () =>{
-             clearInterval(time);
-         })
+        //  stop.addEventListener('click', () =>{
+        //      clearInterval(time);
+        //  })
 
 
 

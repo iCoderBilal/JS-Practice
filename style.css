@@ -1,3 +1,31 @@
-.ave{
+/* .ave{
     height: 50vh;
-    background-color: rgb(67, 67, 148};
+    background-color: rgb(67, 67, 148}; */
+
+
+
+.firstdiv{
+    height: 500px;
+    width: 500px;
+    background-color: black;
+    
+    
+    margin-left: 450px;
+    border: solid 4px gray;
+  
+   
+}
+
+.seconddiv{
+    height: 250px;
+    width: 250px;
+    background-color: yellow;
+    margin-left: 130px;
+    position: relative;
+    top: 125px;
+    border: solid 4px rgb(226, 218, 146);
+    
+    
+
+
+}
