@@ -359,25 +359,25 @@
 // }
 
 
-let number = 13;
+// 
+//      
+// function carrying
+// const sum = (num1)=>(num2) =>(num3)=>console.log(num1 + num2 + num3);
 
 
-let onemoreformula = number%2;
-
-if(onemoreformula==0){
-    console.log('this is even number');
-
-}else{
-    console.log('this is odd number')
-}
+// sum(8)(9)(10);
 
 
+// Call back Hell
+setInterval(() => {
+    console.log('first is done');
 
+    setInterval(() => {
+        console.log('second is done');
+        setInterval(() => {
+            console.log('third is done');
+        }, 3000)
+    }, 3000)
+}, 3000)
 
     
-    
-
-
-
-
-
