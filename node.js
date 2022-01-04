@@ -369,17 +369,22 @@
 
 
 // Call back Hell
-setInterval(() => {
-    console.log('first is done');
+// setInterval(() => {
+//     console.log('first is done');
 
-    setInterval(() => {
-        console.log('second is done');
-        setInterval(() => {
-            console.log('third is done');
+//     setInterval(() => {
+//         console.log('second is done');
+//         setInterval(() => {
+//             console.log('third is done');
 
-            
-        }, 3000)
-    }, 3000)
-}, 3000)
 
+//         }, 3000)
+//     }, 3000)
+// }, 3000)
+
+
+let equalTo = (a,b) =>
+a===100 && b===100;
+
+!equalTo(100,100)
     
