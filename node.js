@@ -378,6 +378,7 @@
 //             console.log('third is done');
 
 
+
 //         }, 3000)
 //     }, 3000)
 // }, 3000)
@@ -386,5 +387,5 @@
 let equalTo = (a,b) =>
 a===100 && b===100;
 
-!equalTo(100,100)
+document.write(!equalTo(100,100));
     
