@@ -379,13 +379,20 @@
 
 
 
+
+
+
 //         }, 3000)
 //     }, 3000)
 // }, 3000)
 
 
-let equalTo = (a,b) =>
-a===100 && b===100;
+// let equalTo = (a,b) =>
 
-document.write(!equalTo(100,100));
+// a===100 && b===100;
+
+// document.write(!equalTo(100,100));
+
+let myName = 'Mian Muhammad Bilal';
+document.write(myName);
     
