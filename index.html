@@ -1,192 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="style.css"
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practice</title>
-</head>
+<html>
 <body>
 
-    <!-- <p>Click the below button to display the Date & Time.</p>
+<h2>JavaScript switch</h2>
 
-    <button onclick="myDate()">Try It</button>
-  <p id="demo"></p>
-  <p id="time"></p>
-        
-    </div> -->
-    <!-- <h1 id="heading">My Name is Mian Muhammad Bilal (naam to suna hoga)</h1>
+<p id="demo"></p>
 
-    <button onclick="buttonBack()">Click On it </button>
+<script>
+let day;
+switch (new Date().getDay()){
+case 0:
+day = "sunday";
+break;
 
-    <p class="apra">Hello!</p>
-    <p class="apra">Hello!</p> -->
+case 1:
+day = "Monday";
+break;
 
-    <!-- <button id="lastone">click on me</button> -->
+case 2:
+day = "Tuesday";
+break;
 
-    <!-- <p id="showname"></p>
-    <button id="btn">Click Me if you are interested in me</button> -->
+case 3:
+day = "wenesday"
+break;
 
-   <!-- <h3>Click the Below Button To check the name of Lucky Person</h3>
-   <p id="showus"></p>
-   <button id="btn">Click me</button> -->
+case 4:
+day = "thursday";
+break;
 
-   <!-- <p id="main"></p>
-   <button id="btn">Click me </button>
-   <button id="stop"> Stop</button> -->
+case 5:
+day = "friday";
+break;
 
-   <!-- <div class="firstdiv" id="firstid">
-       <div class="seconddiv" id="secondid">
+case 6:
+day = "sat";
 
-       </div>
-   </div> -->
-   
+}
 
- 
-     <!-- <script>
-         let firstdiv = document.getElementById('firstid');
-         let seconddiv = document.getElementById('secondid');
+document.getElementById("demo").innerHTML = "Today is " + day;
+</script>
 
-
-         const firstcall = function(){
-             alert('hit the big div');
-         }
-
-         const secondcall = () =>{
-             alert('hit the small div');
-             event.stopPropagation();
-         }
-
-         firstdiv.addEventListener('click' , firstcall , true);
-         seconddiv.addEventListener('click', secondcall , true); -->
-
-
-
-
-
-
-
-
-
-
-
-
-        <!-- //  let num = 0;
-        //  const stop = document.getElementById('stop');
-        //  let time;
-
-        //  const countdown = document.querySelector("#btn");
-
-        //  let counting = function(){ -->
-
-
-        <!-- //       time = setInterval(() => {
-        //          document.getElementById('main').innerHTML = `${num}`;
-        //          num++;
-        //      }, 1000);
-
-
-             
-        //  }
-
-
-        //  countdown.addEventListener('click', counting );
-
-        //  stop.addEventListener('click', () =>{
-        //      clearInterval(time);
-        //  })
-
-
-
-        // const Yes = document.getElementById('showus') -->
-
-        <!-- // const clickbutton = document.getElementById('btn');
-        // const name = function(){
-        //     Yes.innerHTML = "Loading.........."
-        //     setTimeout(function(){
-        //         Yes.innerHTML = 'Mian Muhammad  Bilal'
-
-
-                
-
-        //     },1000)
-        // }; -->
-
-
-        <!-- // clickbutton.addEventListener('click', name);
-
-    //    const myName = document.getElementById('showname');
-    //    const button = document.getElementById('btn');
-
-    //    const showMyName = function(){
-    //        setTimeout(function(){
-    //            myName.innerHTML = 'Mian Muhammad Bilal'
-
-    //        },3000)
-    //    }
-
-    //    button.addEventListener('click' , showMyName);
-
-     
-
-       
-        
-        // function mouseDown(){
-        //     document.getElementById('mousecheck').style.color = 'rgb(0,0,255)';
-            
-        // }
-
-        // function mouseUp(){
-        //     document.getElementById('mousecheck').style.color = 'rgb(255, 255, 0)';
-        // }
-
-        // const lastone = document.getElementById('lastone');
-
-        // lastone.addEventListener('click', () => {
-        //     alert('This is the best one.')
-        // })
-
-    // const idontknow = document.getElementById('lastone');
-    // idontknow.onclick = function() {
-
-    
-    // alert('You know me')};
-
-
-        // function myFunction(){
-        //     alert('Keep trying');
-        // }  
-        // function myDate() {
-        //     let t = new Date().toLocaleTimeString();
-
-        //     let y = new Date().toLocaleDateString();
-            
-
-            
-
-        //     document.getElementById('demo').innerHTML = t;
-        //     document.getElementById('time').innerHTML = y; -->
-            
-        
-<!-- // function buttonBack(){
-//     window.history.back();
-// }
-
-// function buttonBack(){
-//     document.querySelectorAll('.apra').innerHTML = 'I changed again';}
-    // let data = document.getElementById('heading');
-    // data.innerHTML = 'Yes we know';
-    // document.getElementById('heading').innerHTML = 'Yes we know it.';
-//     console.log(document.getElementsByClassName('apra'));
-//     console.log(document.getElementsByTagName('p'));
-// } --> 
-
-
-
-
-    <script src="node.js">
-        
-    </script>
 </body>
 </html>
